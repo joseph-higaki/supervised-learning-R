@@ -1,0 +1,8 @@
+"","formula_name","kernel_function","polynomial_degree","gamma","coef0","cost_parameter","accuracy","prediction_cost"
+"1","Class ~ Cell.size + Cl.thickness","linear","N/A","N/A","N/A","10","0.953216374269006","408"
+"2","Class ~ Cell.size + Cl.thickness","linear","N/A","N/A","N/A","100","0.953216374269006","408"
+"3","Class ~ Cl.thickness + Cell.size + Cell.shape + Marg.adhesion +     Epith.c.size + Bare.nuclei + Bl.cromatin + Normal.nucleoli +     Mitoses","linear","N/A","N/A","N/A","10","0.947368421052632","508"
+"4","Class ~ Cl.thickness + Cell.size + Cell.shape + Marg.adhesion +     Epith.c.size + Bare.nuclei + Bl.cromatin + Normal.nucleoli +     Mitoses","linear","N/A","N/A","N/A","100","0.947368421052632","508"
+"5","Class ~ Cl.thickness + Cell.size + Cell.shape + Marg.adhesion +     Epith.c.size + Bare.nuclei + Bl.cromatin + Normal.nucleoli +     Mitoses","polynomial","3","2.5","N/A","10","0.923976608187134","614"
+"6","Class ~ Cl.thickness + Cell.size + Cell.shape + Marg.adhesion +     Epith.c.size + Bare.nuclei + Bl.cromatin + Normal.nucleoli +     Mitoses","polynomial","4","5","N/A","1000","0.883040935672515","1510"
+"7","Class ~ Cl.thickness + Cell.size + Cell.shape + Marg.adhesion +     Epith.c.size + Bare.nuclei + Bl.cromatin + Normal.nucleoli +     Mitoses","radial","N/A","2","N/A","10","0.929824561403509","24"
